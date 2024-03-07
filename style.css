@@ -1,0 +1,60 @@
+body{
+    background-color: #EEEEEE;
+    margin: 10px 20px 30px 40px;
+}
+
+table,thead,td,tr{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+}
+
+thead{
+    text-align: center;
+    background-color: rgb(255, 157, 0);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.judul3{
+    border: 1px solid;
+    background-color:rgb(255, 157, 0);
+    padding: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+form{
+    max-width: 500px;
+    padding: 20px;
+    border: 1px transparent;
+    margin-top: 20px;
+    background-color: rgb(192, 213, 232);
+    box-shadow: 10px 10px 20px rgb(61, 97, 181);
+}
+
+.form-group{
+    display: flex;
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+label{
+    flex: 0 0 100px;
+    margin-right: 100px;
+}
+
+button{
+    background-color: rgb(255, 157, 0);
+    font-weight: bold;
+    padding: 5px;
+}
+
+button:hover{
+    background-color: yellow;
+    cursor: pointer;
+}
